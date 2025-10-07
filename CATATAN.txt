@@ -1,0 +1,16 @@
+- buat Rest API Invetory dan Venue
+
+####### Docker Compose.yml #######
+docker-compose.yml
+- buat file docker compose.yml
+environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: admin123
+      MYSQL_PASSWORD: admin123
+      MYSQL_DATABASE: ticketing
+      
+- buat service untuk database mysql
+- buat folder docker/mysql/init.sql
+docker compose ps
+docker compose up -d
+docker compose down
